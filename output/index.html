@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spark</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+
+
+    <div class="screen">
+
+    <!--header-->
+    <header class="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="">
+                        <span>AURA</span>&nbsp;<i class="fas fa-server"></i>
+                    </a>
+                </div>
+                <div class="social-icons">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <!--date timer-->
+    <div class="dealTimer">
+        <div class="dealTimer--inner">
+            <div class="dealTimer-logo">
+                <img src="https://clubrunner.blob.core.windows.net/00000006639/Images/limited-time-offer(1).png"
+                     width=30 height=30 alt="">
+            </div>
+            <div class="dealTimer-clock">
+                <div class="clock-box"><span class="clock-digit" id="days"></span><span class="clock-name">Days</span></div>
+                <div class="clock-box"><span class="clock-digit" id="hours"></span><span class="clock-name">Hours</span></div>
+                <div class="clock-box"><span class="clock-digit" id="minutes"></span><span class="clock-name">Minutes</span></div>
+                <div class="clock-box"><span class="clock-digit" id="seconds"></span><span class="clock-name">Seconds</span></div>
+            </div>
+        </div>
+
+    </div>
+    <!--main product details-->
+    <section class="main">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-md-8">
+
+                    <div class="productDisplay">
+                        <div class="product-description-slider owl-carousel owl-theme">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="productDisplay-image">
+                                        <img src="./photo/television.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="productDisplay-details">
+                                        <div>
+                                            <span class="details-title">SKYWORTH MODEL 2120</span>
+                                            <ul class="details-lists">
+                                                <li><span>Resolution</span> <span>FHD</span></li>
+                                                <li><span>Category</span>Google Android TV</li>
+                                                <li><span>Model</span><span>2120</span></li>
+                                                <li><span>Television</span><span>Google Android 4K</span></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="details-price">
+                                            <span class="mrp">MRP</span>
+                                            <span class="price">NRS 40,300</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="productDisplay-image">
+                                        <img src="./photo/television.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="productDisplay-details">
+                                        <span class="details-title">SKYWORTH MODEL 2120</span>
+                                        <ul class="details-lists">
+                                            <li><span>Resolution</span> <span>FHD</span></li>
+                                            <li><span>Category</span>Google Android TV</li>
+                                            <li><span>Model</span><span>2120</span></li>
+                                            <li><span>Television</span><span>Google Android 4K</span></li>
+                                        </ul>
+                                        <div class="details-price">
+                                            <span class="mrp">MRP</span>
+                                            <span class="price">NRS 40,300</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="post">
+                            <h4>Get In touch with us</h4>
+                            <fieldset>
+                                <input placeholder="Enter Your Name" type="text" required autofocus>
+                            </fieldset>
+                            <fieldset>
+                                <input placeholder="Your Email Email" type="email" required>
+                            </fieldset>
+
+                            <fieldset>
+                                <textarea placeholder="Enquiry" tabindex="5" required></textarea>
+                            </fieldset>
+                            <fieldset class="text-right">
+                                <button name="submit" type="submit">Submit</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--product carousel-->
+    <div class="container">
+        <div class="product-carousel-container">
+
+            <section class="product-carousel owl-carousel owl-theme">
+                <div class="product-card">
+                    <a href="">
+                        <div class="product-card--title">Skyworth EU20</div>
+                        <figure class="product-card--image">
+                            <img src="./photo/television.png" alt="">
+                        </figure>
+                        <div class="product-card--price">
+                            NRS 42,000
+                        </div>
+                    </a>
+
+                </div>
+                <div class="product-card">
+                    <a href="">
+                        <div class="product-card--title">Skyworth EU20</div>
+                        <figure class="product-card--image">
+                            <img src="./photo/television.png" alt="">
+                        </figure>
+                        <div class="product-card--price">
+                            NRS 42,000
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="product-card">
+                    <a href="">
+                        <div class="product-card--title">Skyworth EU20</div>
+                        <figure class="product-card--image">
+                            <img src="./photo/television.png" alt="">
+                        </figure>
+                        <div class="product-card--price">
+                            NRS 42,000
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="product-card">
+                    <a href="">
+                        <div class="product-card--title">Skyworth EU20</div>
+                        <figure class="product-card--image">
+                            <img src="./photo/television.png" alt="">
+                        </figure>
+                        <div class="product-card--price">
+                            NRS 42,000
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="product-card">
+                    <a href="">
+                        <div class="product-card--title">Skyworth EU20</div>
+                        <figure class="product-card--image">
+                            <img src="./photo/television.png" alt="">
+                        </figure>
+                        <div class="product-card--price">
+                            NRS 42,000
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="product-card">
+                    <a href="">
+                        <div class="product-card--title">Skyworth EU20</div>
+                        <figure class="product-card--image">
+                            <img src="./photo/television.png" alt="">
+                        </figure>
+                        <div class="product-card--price">
+                            NRS 42,000
+                        </div>
+                    </a>
+
+                </div>
+                <div class="product-card">
+                    <a href="">
+                        <div class="product-card--title">Skyworth EU20</div>
+                        <figure class="product-card--image">
+                            <img src="./photo/television.png" alt="">
+                        </figure>
+                        <div class="product-card--price">
+                            NRS 42,000
+                        </div>
+                    </a>
+
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script src="js/app.min.js"></script>
+
+</body>
+</html>
